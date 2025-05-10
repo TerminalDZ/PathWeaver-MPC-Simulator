@@ -1,6 +1,6 @@
 <html>
 	<head>
-        <title>Dash - WebGL Self-Driving Car Simulator</title>
+        <title>PathWeaver MPC Simulator</title>
         <link rel="stylesheet" href="vendor/bulma.min.css" />
         <link rel="stylesheet" href="css/dash.css" />
         <meta charset="utf-8" />
@@ -429,46 +429,36 @@
                     <div class="hero is-dark is-bold" style="position: relative;">
                         <button id="welcome-modal-close" class="delete is-medium" style="position: absolute; top: 0.5rem; right: 0.5rem;"></button>
                         <div class="hero-body" style="padding: 1.5rem;">
-                            <div class="title is-4"><b>Dash</b> Self-Driving Car Simulator</div>
-                            <div class="subtitle is-6">Built with WebGL and Three.js</div>
+                            <div class="title is-4"><b>PathWeaver MPC Simulator</b></div>
+                            <div class="subtitle is-6">Advanced Self-Driving Car Simulation with WebGL & Three.js</div>
                         </div>
                     </div>
                     <p></p>
                     <p>
-                        This project demonstrates a real-time, on-road,
-                        lattice-based autonomous vehicle motion planner in the
-                        browser.  Many autonomous vehicle motion planners are
-                        implemented close to the metal in C or C++, or they
-                        utilize computing platforms like CUDA or OpenCL to
-                        generate plans in a highly parallel fashion on the GPU.
-                        Using WebGL, we can implement similar parallel planning
-                        algorithms right in the browser that can run on a
-                        variety of moderately-powerful consumer graphics cards.
-                        With Three.js, the motion planner can be executed in
-                        real-time 3D simulated scenarios.
+                        Welcome to the <strong>PathWeaver MPC Simulator</strong>, a project demonstrating real-time, on-road,
+                        lattice-based autonomous vehicle motion planning combined with Model Predictive Control (MPC) directly in your browser.
+                        While many industrial motion planners rely on C++, CUDA, or OpenCL for GPU acceleration,
+                        this simulator showcases how WebGL can be harnessed to execute similar parallel planning
+                        algorithms. Coupled with Three.js, these complex operations are visualized in interactive, real-time 3D simulated environments.
                     </p>
                     <p>
-                        This simulator is still a work-in-progress. You may see
-                        bugs, WebGL crashes, strange vehicle behavior, and any
-                        number of other failures. Currently, it is fully functional
-                        only in <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>
-                        with <a href="https://github.com/mattbradley/dash/blob/master/README.md#enable-hardware-acceleration" target="_blank">hardware acceleration enabled</a>
-                        and <a href="https://github.com/mattbradley/dash/blob/master/README.md#enable-experimental-canvas-features" target="_blank">experimental canvas features enabled</a>.
-                        The target frame rate is 60fps, but it may run
-                        slower depending on how long planning takes on your
-                        hardware.
+                        This simulator is an ongoing development effort by Idriss Boukmouche. As such, you might encounter
+                        bugs, occasional WebGL issues, or unexpected vehicle behaviors. For the best experience and full functionality,
+                        it is currently recommended to use <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>
+                        with hardware acceleration enabled and experimental canvas features activated (see project README for setup).
+                        The target is 60fps, though performance may vary based on your hardware's planning capabilities.
                     </p>
                     <p>
-                        Next steps: try out several
+                        Ready to explore? Try out some
                         <a id="welcome-modal-examples">example scenarios</a>
-                        or <a id="welcome-modal-create">create your own</a>.
+                        or dive in and <a id="welcome-modal-create">create your own custom scenario</a>.
                     </p>
                     <p>
-                        The source code and more information can be found in the
-                        <a href="https://github.com/mattbradley/dash/blob/master/README.md" target="_blank">README</a>.
+                        For detailed information, source code, and setup instructions, please refer to the
+                        <a href="https://github.com/terminaldz/PathWeaver-MPC-Simulator" target="_blank">project's README on GitHub</a>.
                     </p>
                     <p class="is-size-7 has-text-grey">
-                        &copy; 2018 Matt Bradley &bull; <a href="https://github.com/mattbradley/dash/blob/master/LICENSE" target="_blank">MIT License</a> &bull; <a href="https://github.com/mattbradley/dash" target="_blank">GitHub</a>
+                        © 2025 Idriss Boukmouche •  <a href="https://github.com/terminaldz/PathWeaver-MPC-Simulator" target="_blank">GitHub (terminaldz)</a>
                     </p>
                 </div>
             </div>
